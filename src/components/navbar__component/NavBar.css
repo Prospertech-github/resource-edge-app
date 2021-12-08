@@ -1,0 +1,42 @@
+
+nav{
+  width: 100%;
+  padding: 1.5% 7%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__left-content,
+.navbar__right-content{
+  display: flex;
+}
+.navbar__left-content li{
+  display: inline-block;
+  padding: 7px;
+  margin: 0 20px;
+}
+.navbar__left-content li a{
+  color: #091E42;
+  padding: inherit;
+}
+.navbar__left-content h1{
+  color: #0052CC;
+}
+.navbar__right-content li{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 7px;
+}
+.navbar__right-content li a{
+  padding: 10px;
+}
+#navbar__right-content__sign-in li a{
+  color:#A5ADBA;
+}
+#navbar__right-content__sign-up li a{
+  color: #fff;
+  border-radius: 5px;
+  background: #0052CC;
+}
+
