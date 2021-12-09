@@ -1,0 +1,26 @@
+.humanResource{
+  width: 100%;
+  background: #F4F5F7;
+  padding: 5% 7%;
+  border: 2px solid red;
+}
+.humanResource__title{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#humanResource__title__bold-text{
+  color: #091E42;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+#humanResource__title__light-text{
+  color: #5E6C84;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 2.5rem;
+  width: 80%;
+}
+.humanResource__box{
+  display: flex;
+}
