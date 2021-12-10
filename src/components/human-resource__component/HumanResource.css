@@ -2,7 +2,6 @@
   width: 100%;
   background: #F4F5F7;
   padding: 5% 7%;
-  border: 2px solid red;
 }
 .humanResource__title{
   display: flex;
@@ -21,6 +20,15 @@
   margin-top: 2.5rem;
   width: 80%;
 }
-.humanResource__box{
+
+.humanResource__directList{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7.5rem auto 0;
+  padding: 0;
+  width: 70%;
+}
+.humanResource__directList img{
+  width: 100%;
 }

@@ -1,5 +1,6 @@
 import './HumanResource.css';
 import HumanResourceBox from '../human-resource-box__component/HumanResourceBox'
+import DirectList from '../../assets/images/Direct Reports - List.png';
 
 function HumanResource() {
   
@@ -10,8 +11,10 @@ function HumanResource() {
         <span id="humanResource__title__light-text"> Onboard new employees, manage the employee lifecycle and measure employee performance. </span>
       </div>
 
-      <div className="humanResource__box">
         <HumanResourceBox />
+      
+      <div className="humanResource__directList">
+        <img src={DirectList} />
       </div>
 
     </section>
