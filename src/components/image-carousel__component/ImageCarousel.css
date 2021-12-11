@@ -1,0 +1,20 @@
+.imageContainer{
+  margin-top: 10rem;
+  display: flex;
+  width: 100%;
+  padding: 1.5rem;
+}
+.imageContainer div{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageContainer div img{
+  text-align: center;
+  width: 16rem;
+}
+#tenece{
+  height: 5rem;
+  width: 14rem;
+}

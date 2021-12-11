@@ -1,6 +1,8 @@
 import './AdminLogistics.css';
 import AdminLogisticsDirectList from '../../assets/images/directreport-2.png';
 import FinanceDirectList from '../../assets/images/financedirectlist.png';
+import ImageCarousel from '../image-carousel__component/ImageCarousel';
+
 
 
 function AdminLogistics() {
@@ -73,7 +75,7 @@ function AdminLogistics() {
 
       </div>
 
-     
+     <ImageCarousel />
         
       </section>
     </div>

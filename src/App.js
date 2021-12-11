@@ -1,9 +1,9 @@
 import React from "react";
-// import NavBar from "./components/navbar__component/NavBar";
 
 import Header from "./components/header__component/Header";
 import HumanResource from "./components/human-resource__component/HumanResource";
 import AdminLogistics from "./components/adminLogistics__component/AdminLogistics";
+import Footer from "./components/footer__component/Footer";
 
 
 function App() {
@@ -22,7 +22,9 @@ function App() {
         <AdminLogistics />
       </section>
 
-      
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
