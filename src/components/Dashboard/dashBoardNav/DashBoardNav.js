@@ -4,7 +4,7 @@ function DashBoardNav() {
   
   return (
     <div>
-       <nav>
+       <nav className="dashboard__navbar">
           <div className="navbar__left-items">
             <i className="fa fa-bars"> </i>
             <h1 className="logo"> resource edge</h1>
@@ -13,7 +13,7 @@ function DashBoardNav() {
           </div>
 
           <div className="navbar__right-items">
-            <i class="fas fa-user"></i>
+            <i className="fas fa-user"></i>
           </div> 
         </nav>
     </div>

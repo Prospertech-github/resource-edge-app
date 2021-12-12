@@ -10,7 +10,7 @@ function DashBoardBody() {
       </div>
 
       <div className="task__div">
-        <h3 className="task__"> Things to do </h3>
+        <h3 className="task__head-title"> Things to do </h3>
 
         <DashBoardTasks />
       </div>

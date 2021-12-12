@@ -11,10 +11,10 @@ function Footer() {
 
       <div className="footer__right">
         <div className="icons">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-facebook-square"></i>
+          <i className="fab fa-twitter"></i>
+          <i className="fab fa-linkedin"></i>
+          <i classname="fab fa-instagram"></i>
         </div>
           
           <p className="light-text long-text"> Copyright &copy; Genesys DevStudio . All rights reserved </p>

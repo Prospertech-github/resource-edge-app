@@ -4,7 +4,7 @@ function DropDown() {
   
   return (
     <div>
-      <ul class="mainMenu">
+      <ul className="mainMenu">
         <li> <a href="#"> Features </a> </li>
         <li> <a href="#"> About </a> </li>
 

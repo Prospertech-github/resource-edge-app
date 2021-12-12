@@ -18,7 +18,7 @@ function AdminLogistics() {
 
           <div className="adminLogistics__aside-texts">
             <div className="aside-text__one">
-              <i class="fas fa-luggage-cart aside-icon" id="travel-icon"></i>
+              <i className="fas fa-luggage-cart aside-icon" id="travel-icon"></i>
 
               <div className="adminLogistics__aside-texts__contents">
                 <p id="aside-texts__contents__bold-text"> Travel &amp; Logistics </p>
@@ -27,7 +27,7 @@ function AdminLogistics() {
             </div>
 
             <div className="aside-text__two">
-              <i class="fas fa-briefcase aside-icon" id="asset-icon"></i>
+              <i className="fas fa-briefcase aside-icon" id="asset-icon"></i>
 
               <div className="adminLogistics__aside-texts__contents">
                 <p id="aside-texts__contents__bold-text"> Asset Management </p>
@@ -50,7 +50,7 @@ function AdminLogistics() {
 
           <div className="adminLogistics__aside-texts">
             <div className="aside-text__one">
-                <i class="fas fa-file-invoice aside-icon" id="voucher-icon"></i>
+                <i className="fas fa-file-invoice aside-icon" id="voucher-icon"></i>
 
               <div className="adminLogistics__aside-texts__contents">
                 <p id="aside-texts__contents__bold-text"> RE Vouchers </p>
@@ -59,7 +59,7 @@ function AdminLogistics() {
             </div>
 
             <div className="aside-text__two">
-                <i class="fas fa-envelope-open-text aside-icon" id="payroll-icon"></i>
+                <i className="fas fa-envelope-open-text aside-icon" id="payroll-icon"></i>
 
               <div className="adminLogistics__aside-texts__contents">
                 <p id="aside-texts__contents__bold-text"> Payroll </p>

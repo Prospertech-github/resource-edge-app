@@ -2,6 +2,7 @@ import { useState, Fragment } from 'react';
 import './NavBar.css';
 import MobileLogo from '../../../../assets/images/mobileLogo.png';
 import DropDown from '../dropDown__component/DropDown';
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -26,7 +27,7 @@ function NavBar() {
           <div className="navbar__right-content">
             <div class="openMenu"> <i onClick={handleDropdown} class={`fa fa-${showDropdown ? 'times' : 'bars'}`}> </i> </div>
             <ul className="menu-Nav">
-              <span id="navbar__right-content__sign-in"> <li> <a href="#"> Sign In </a> </li> </span>
+              <span id="navbar__right-content__sign-in"> <li> <Link to="/signIn"> Sign In </Link> </li> </span>
               <span id="navbar__right-content__sign-up"> <li> <a href="#"> Sign Up </a> </li> </span>
             </ul>
           </div>

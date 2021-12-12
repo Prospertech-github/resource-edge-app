@@ -33,7 +33,7 @@ function HumanResourceBox() {
 
       <div className="resource-box">
         <div className="resource-box__content">
-          <i class="far fa-chart-bar first-icon" id="second-icon"></i>
+          <i className="far fa-chart-bar first-icon" id="second-icon"></i>
 
           <div className="resource-box__content__text">
             <p id="resource-box__content__bold-text"> {details[1].boldText} </p>
@@ -44,7 +44,7 @@ function HumanResourceBox() {
 
       <div className="resource-box">
         <div className="resource-box__content">
-          <i class="fas fa-calendar-alt first-icon" id="third-icon"></i>
+          <i className="fas fa-calendar-alt first-icon" id="third-icon"></i>
 
           <div className="resource-box__content__text">
             <p id="resource-box__content__bold-text"> {details[2].boldText} </p>
