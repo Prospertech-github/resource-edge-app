@@ -32,3 +32,25 @@
 .humanResource__directList img{
   width: 100%;
 }
+
+@media screen and (max-width: 450px){
+  .humanResource{
+    padding: 14% 5% 4%;
+  }
+  .humanResource__title{
+    width: 100%;
+  }
+  #humanResource__title__bold-text{
+    font-size: 3rem;
+  }
+  #humanResource__title__light-text{
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    width: 90%;
+  }
+  .humanResource__directList{
+    margin-top: 5rem;
+    width: 100%;
+  }
+  
+}

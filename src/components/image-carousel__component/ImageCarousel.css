@@ -4,8 +4,14 @@
   width: 100%;
   padding: 1.5rem;
 }
-.imageContainer div{
-  width: 25%;
+.imageSubContainer__one,
+.imageSubContainer__two{
+  width: 100%;
+  display: flex;
+}
+.imageSubContainer__one div,
+.imageSubContainer__two div{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +23,28 @@
 #tenece{
   height: 5rem;
   width: 14rem;
+}
+
+@media screen and (max-width: 450px) {
+  .imageContainer{
+  margin: 5rem 0;
+  padding: 0;
+}
+  .imageSubContainer__one,
+  .imageSubContainer__two{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageSubContainer__one div,
+  .imageSubContainer__two div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  #tenece{
+    margin-top: -1.5rem;
+  }
 }

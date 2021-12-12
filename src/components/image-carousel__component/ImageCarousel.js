@@ -8,22 +8,25 @@ function ImageCarousel() {
   
   return (
     <div className="imageContainer">
-      <div>
-        <img src={UNNImage} />
-      </div>
+      <div className="imageSubContainer__one">
+        <div>
+          <img src={UNNImage} />
+        </div>
       
-      <div>
-        <img src={TeneceImage}  id="tenece"/>
-      </div>
+        <div>
+          <img src={TeneceImage}  id="tenece"/>
+        </div>
+     </div>
         
-      <div>
-        <img src={PrivateEstateImage} />
-      </div>
+      <div className="imageSubContainer__two">
+        <div>
+          <img src={PrivateEstateImage} />
+        </div>
       
-      <div>
-        <img src={GenesysImage} />
+        <div>
+          <img src={GenesysImage} />
+        </div>
       </div>
-      
     </div>
   )
 }

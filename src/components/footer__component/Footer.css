@@ -23,6 +23,7 @@
 #logo{
   color: #A5ADBA;
   font-weight: 450;
+  cursor: pointer;
 }
 .light-text{
   font-weight: 100;
@@ -44,4 +45,34 @@
   padding: 5px 0;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 450px) {
+  .footer{
+    padding: 3.5% 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+  }
+  .footer__left,
+  .footer__right{
+    align-items: center;
+    text-align: center;
+    padding: 1.8rem 0;
+  }
+  .footer__left{
+    width: 100%;
+  }
+  .footer__right{
+    width: 60%;
+    margin-top: 2.5rem;
+  }
+  .light-text{
+  margin-top: 1rem;
+  }
+  .long-text{
+    width: 100%;
+    margin-top: 1.5rem;
+  }
 }

@@ -109,3 +109,54 @@
   width: 100%;
   height: 100%;
 }
+
+
+@media screen and (max-width: 450px) {
+  .adminLogistics{
+    width: 100%;
+    padding: 7%;
+  }
+  .adminLogistics__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .adminLogistics__title{
+    width: 100%;
+    padding: 1.8rem 0;
+  } 
+  #adminLogistics__title__bold-text{
+    font-size: 3rem;
+  } 
+  #adminLogistics__title__light-text{
+    margin-top: 1.4rem;
+  }
+  .adminLogistics__aside-texts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+  .aside-text__one{
+    width: 80%;
+    padding: 1.5rem 0;
+  }
+  .aside-text__two{
+    width: 80%;
+    padding: 1.5rem 0;
+    margin-top: 2.2rem;
+  }
+  .adminLogistics__aside-texts__contents{
+    margin-top: 1.2rem;
+  }
+  .adminLogistics__directList{
+    margin: 3rem auto 0;
+    padding: 0;
+    width: 100%;
+  } 
+  .adminLogistics__directList img{
+    width: 100%;
+  }
+}
