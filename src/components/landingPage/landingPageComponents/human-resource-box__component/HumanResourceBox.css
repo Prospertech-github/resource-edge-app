@@ -49,7 +49,7 @@
   margin-top: 1.2rem;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 540px) {
   .resource-box-container{
     flex-direction: column;
   }

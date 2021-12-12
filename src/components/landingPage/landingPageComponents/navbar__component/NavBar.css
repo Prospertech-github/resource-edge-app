@@ -46,7 +46,7 @@ nav{
   background: #0052CC;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 540px) {
   nav{
   width: 100%;
   padding: 5%;
