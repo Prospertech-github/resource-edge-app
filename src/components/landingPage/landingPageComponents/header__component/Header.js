@@ -1,6 +1,6 @@
 import NavBar from '../navbar__component/NavBar';
 import './Header.css'
-import HeroImage from '../../../assets/images/heroImage.png'
+import HeroImage from '../../../../assets/images/heroImage.png'
 
 
 function Header() {

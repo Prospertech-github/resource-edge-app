@@ -1,6 +1,6 @@
 import './HumanResource.css';
 import HumanResourceBox from '../human-resource-box__component/HumanResourceBox'
-import DirectList from '../../../assets/images/Direct Reports - List.png';
+import DirectList from '../../../../assets/images/Direct Reports - List.png';
 
 function HumanResource() {
   

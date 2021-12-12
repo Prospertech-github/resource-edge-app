@@ -1,6 +1,6 @@
 import { useState, Fragment } from 'react';
 import './NavBar.css';
-import MobileLogo from '../../../assets/images/mobileLogo.png';
+import MobileLogo from '../../../../assets/images/mobileLogo.png';
 import DropDown from '../dropDown__component/DropDown';
 
 
