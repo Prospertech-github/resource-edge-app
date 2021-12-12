@@ -1,0 +1,107 @@
+.formField{
+  margin-top: 2rem;
+  display: flex;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);;
+}
+.formtexts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 4rem;
+  align-items: center;
+}
+.welcome__texts{
+  padding: 1rem;
+}
+.welcome__texts h3{
+  text-align: center;
+  font-size: 2.4rem;
+  color: #091E42;
+}
+.welcome__texts p{
+  font-size: 1.4rem;
+  color: #42526E;
+  text-align: center;
+  margin-top: .5rem;
+}
+.userdetails{
+  padding: 1rem;
+  display: flex;
+}
+.userdetails__texts{
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.userdetails__texts #userName{
+  text-align: center;
+  color: #091E42;
+  font-size: 2rem;
+  font-weight: 450;
+}
+.userdetails__texts p{
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #7A869A;
+  margin-top: .4rem;
+}
+.userdetails i{
+  font-size: 2rem;
+  color: #7A869A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form{
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.form p{
+  font-size: 1.6rem;
+  color: #091E42;
+}
+.form input{
+  padding: .9rem;
+  margin: 0.5rem 0 1rem;
+  border-radius: 5px;
+}
+#password__input{
+  border: 2px solid #e5e5e5;
+}
+#password__input:focus{
+  outline: none;
+}
+#submit__input{
+  background: #0052CC;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 450;
+  border-color: #0052CC;
+  margin-top: 2rem;
+  text-align: center;
+  outline: none;
+}
+.line{
+  margin-top: 2rem;
+  /* height: 1px; */
+  background: #DFE1E6;
+  width: 100%;
+  border: 1px solid #DFE1E6;
+}
+.hidden{
+  display: none;
+}
+.form a{
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: center;
+  color: #0052CC;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,49 @@
+.container{
+  background: #e5e5e5;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub__container{
+  position: absolute;
+  width: 40%;
+  top: 5%;
+  left: 30%;
+  padding: 4rem;
+}
+.footerImage__div{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#footerImage__left,
+#footerImage__right{
+  width: 20rem;
+}
+#footerImage__left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#footerImage__right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.top__texts{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.top__texts h1{
+  color: #0052CC;
+  font-size: 3rem;
+}
+.mobileLogo{
+  width: 3.8rem;
+  margin-right: 1rem;
+}
