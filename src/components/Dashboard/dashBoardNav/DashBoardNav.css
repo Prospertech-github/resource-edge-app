@@ -47,3 +47,24 @@
   background: #e5e5e5;
   cursor: pointer;
 }
+
+@media screen and (max-width: 540px) {
+  .dashboard__navbar{
+    padding: 2% 4% 1%;
+    font-size: 1.6rem;
+  }
+  .logo{
+    color: #0052CC;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .text,
+  .bar{
+    display: none;
+  }
+  .navbar__right-items i{
+    font-size: 2rem;
+  }
+
+}

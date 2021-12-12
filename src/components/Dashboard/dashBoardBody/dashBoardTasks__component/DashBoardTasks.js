@@ -17,7 +17,7 @@ function DashBoardTasks() {
     <div className="tasks__container">
       <div className="task__items">
         <div className="tasks__items__details">
-          <div className="task__item__circle"></div>
+          <div className="task__item__circle" id="topCircle"></div>
           <p> {TaskDetails[0].title} </p>
         </div>
         <div className="task__item__button">

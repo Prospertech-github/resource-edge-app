@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './DropDown.css';
 
 function DropDown() {
@@ -9,7 +10,7 @@ function DropDown() {
         <li> <a href="#"> About </a> </li>
 
         <div className="mainmenu__userLogIn">
-          <li id="logIn__list-item"> <a href="#" id="logIn"> Log In </a> </li>
+          <li id="logIn__list-item"> <Link to="/signIn" id="logIn"> Log In </Link> </li>
           <li id="signUp__list-item"> <a href="#" id="signUp"> Sign Up </a> </li>
         </div>
       </ul>

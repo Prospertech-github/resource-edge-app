@@ -19,3 +19,25 @@
   font-weight: 600;
   color: #091E42;
 }
+
+
+@media screen and (max-width: 540px) {
+  .welcomeMessage__div{
+    margin-top: 3rem;
+  }
+  .welcomeMessage__div h1{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  .welcomeMessage__div p{
+    font-size: 1.5rem;
+    margin-top: .6rem;
+  }
+  .task__div{
+    margin-top: 3rem;
+  }
+  .task__div h3{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
