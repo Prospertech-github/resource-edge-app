@@ -4,7 +4,15 @@ function DropDown() {
   
   return (
     <div>
-      <h1> welcome </h1>
+      <ul class="mainMenu">
+        <li> <a href="#"> Features </a> </li>
+        <li> <a href="#"> About </a> </li>
+
+        <div className="mainmenu__userLogIn">
+          <li id="logIn__list-item"> <a href="#" id="logIn"> Log In </a> </li>
+          <li id="signUp__list-item"> <a href="#" id="signUp"> Sign Up </a> </li>
+        </div>
+      </ul>
     </div>
   )
 }

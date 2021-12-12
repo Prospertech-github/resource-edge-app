@@ -1,0 +1,41 @@
+.mainMenu {
+  height: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  z-index: 5;
+  box-shadow:  -2rem 0rem 1rem #888888;
+  transition: all 1s ease;
+}
+.mainMenu li{
+  padding: 1.8rem 0;
+  margin-top: 1.4rem;
+}
+.mainMenu a{
+  font-size: 1.8rem;
+  font-weight: 450;
+  text-decoration: none;
+  color: #091E42;
+}
+.mainmenu__userLogIn{
+  margin-top: 2rem;
+}
+.mainmenu__userLogIn li{
+  text-align: center;
+  border-radius: 5px;
+}
+#logIn__list-item{
+  background: #0052CC;
+}
+#logIn{
+  color: #fff;
+}
+#signUp__list-item{
+  background: #e5e5e5;
+  margin-bottom: 1.6rem;
+}
+#signUp{
+  color: #A5ADBA;
+}
+
+
