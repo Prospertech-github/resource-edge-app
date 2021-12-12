@@ -1,0 +1,49 @@
+nav{
+  width: 100%;
+  padding: 2% 4% 1%;
+  font-size: 1.5rem;
+  font-weight: 450;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px #e5e5e5;
+}
+.navbar__left-items{
+  display: flex;
+}
+.navbar__left-items i{
+  font-size: 2.3rem;
+  margin-right: 1.5rem;
+  margin-top: .2rem;
+  color: #091E42;
+}
+.logo{
+  color: #0052CC;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.bar{
+  color: #C1C7D0;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  margin-top: .2rem;
+}
+.text{
+  color: #091E42;
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-top: .5rem;
+}
+.navbar__right-items{
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__right-items i{
+  font-size: 2.5rem;
+  padding: .8rem;
+  border-radius: 50%;
+  color:#fff;
+  background: #e5e5e5;
+  cursor: pointer;
+}

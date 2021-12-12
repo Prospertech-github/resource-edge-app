@@ -1,0 +1,21 @@
+.main{
+  padding: 8% 7%;
+}
+.welcomeMessage__div h1{
+  font-size: 3.5rem;
+  color: #091E42;
+}
+.welcomeMessage__div p{
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-top: .9rem;
+  line-height: 1.4;
+}
+.task__div{
+  margin-top: 5rem;
+}
+.task__div h3{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #091E42;
+}

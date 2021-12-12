@@ -1,8 +1,8 @@
 import './ImageCarousel.css';
-import PrivateEstateImage from '../../assets/images/privateEstate.png';
-import UNNImage from '../../assets/images/unn.png';
-import TeneceImage from '../../assets/images/tenece.png';
-import GenesysImage from '../../assets/images/genesys.png';
+import PrivateEstateImage from '../../../assets/images/privateEstate.png';
+import UNNImage from '../../../assets/images/unn.png';
+import TeneceImage from '../../../assets/images/tenece.png';
+import GenesysImage from '../../../assets/images/genesys.png';
 
 function ImageCarousel() {
   
